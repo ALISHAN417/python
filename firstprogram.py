@@ -41,5 +41,25 @@ acc1.credit(200)
 acc1.credit(400)
 acc1.debit(230)"""
         
+import random
+target = random.randint(1,100)
+
+while True:
+    userChoice = input("guess the target or Quit(Q) :")
+    if( userChoice == "Q"):
+        break
+    userChoice = int(userChoice)
+    if(userChoice == target):
+        print("Success : Correct Guess!!")
+        break
+    elif(userChoice < target):
+        print("your number was too small. Taking a bigger guess..")
+    else:
+        print("your number was too big. Take a smaller guess..")
+        
+    print("---GAME OVER---")
+    
+         
+
 
 
