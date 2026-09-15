@@ -73,7 +73,7 @@ a=int(input("enter a first no.:"))
 divide=a%3
 print(divide)
 print("alish")
-print("ndkncn")
+
 
     
     
