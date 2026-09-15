@@ -30,5 +30,6 @@ model = LogisticRegression()
 
 model.fit(X_train, y_train)
 
-prediction = model.predict([[7,45]])
+prediction = model.predict([[7,64]])
 print(prediction)
+print("alish")
