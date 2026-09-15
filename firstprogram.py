@@ -49,16 +49,16 @@ x = name
 y = age
 print("My name is",x,  "and I am",y,"old")"""
 
-"""2.a = int(input("enter a first no.:"))
+a = int(input("enter a first no.:"))
 b = int(input("enter a second no.:"))
 mult = a*b
-print(mult)"""
+print(mult)
 
-"""3.a=int(input("enter a first no.:"))
+a=int(input("enter a first no.:"))
 sq = a**2
 print(sq)
-"""
-""""a=int(input("enter a first no.:"))
+
+a=int(input("enter a first no.:"))
 b=int(input("enter a second no.:"))
 sum=a+b
 mult=a*b
@@ -67,11 +67,12 @@ print(mult)
 if(a>b):
     print("true")
 else:
-    print("false")"""
+    print("false")
     
-"""a=int(input("enter a first no.:"))
+a=int(input("enter a first no.:"))
 divide=a%3
-print(divide)"""
+print(divide)
+
 
     
     
