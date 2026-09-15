@@ -41,34 +41,37 @@ acc1.credit(200)
 acc1.credit(400)
 acc1.debit(230)"""
         
+"""varible,input,operators"""
 
-"""class Student:
-    def __init__(self,name):
-        self.__name=name
-        
-s1=Student("alish")
-del s1.name
-print(s1)"""
+"""1. name = "alsihan"
+age  = 20
+x = name
+y = age
+print("My name is",x,  "and I am",y,"old")"""
 
-#project
-# guess the random number 
-import random
-target = random.randint(1,100)
+"""2.a = int(input("enter a first no.:"))
+b = int(input("enter a second no.:"))
+mult = a*b
+print(mult)"""
 
-while True:
-    userChoice = input("guess the target or Quit(Q) :")
-    if( userChoice == "Q"):
-        break
-    userChoice = int(userChoice)
-    if(userChoice == target):
-        print("Success : Correct Guess!!")
-        break
-    elif(userChoice < target):
-        print("your number was too small. Taking a bigger guess..")
-    else:
-        print("your number was too big. Take a smaller guess..")
-        
-    print("---GAME OVER 1234---")
+"""3.a=int(input("enter a first no.:"))
+sq = a**2
+print(sq)
+"""
+""""a=int(input("enter a first no.:"))
+b=int(input("enter a second no.:"))
+sum=a+b
+mult=a*b
+print(sum)
+print(mult)
+if(a>b):
+    print("true")
+else:
+    print("false")"""
     
-         
+"""a=int(input("enter a first no.:"))
+divide=a%3
+print(divide)"""
 
+    
+    
